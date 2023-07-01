@@ -67,14 +67,15 @@ li {
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: -15px;
+
 }
 
-
 .intro-text {
-    width: 400px;
+    flex-basis: 400px;
     height: 300px;
-    align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .intro-image {
@@ -82,8 +83,8 @@ h1 {
     width: 450px;
     height: 200px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -98,4 +99,15 @@ button {
 .container-intro {
     display: flex;
     column-gap: 100px;
+}
+
+/* Information section */
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+}
+/* quote section */
+.container-quote {
+    display: flex;
 }
