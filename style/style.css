@@ -7,6 +7,8 @@ body {
     background-color: #F9FAF8;
     font-family: Roboto;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 a, h1 {
@@ -147,9 +149,7 @@ font-size: 30px;
 .content-cards {
     display: flex;
     gap: 50px;
-]}
-
-
+}
 
 
 /* quote section */
@@ -182,9 +182,9 @@ font-size: 30px;
 /* signup bar */
 
 .content-signup {
-    height: 200px;
+    height: 20%;
     display: flex;
-    align-items: center;
+    flex: 1;
 }
 
 .signupbar {
@@ -206,4 +206,5 @@ font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
